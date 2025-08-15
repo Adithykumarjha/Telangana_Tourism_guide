@@ -1,0 +1,27 @@
+# .gitignore
+# Environment files
+.env
+.secrets.toml
+
+# Data files
+/data/
+!/data/.gitkeep
+
+# Log files
+*.log
+logs/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# IDE specific
+.vscode/
+.idea/
+
+# Streamlit
+.streamlit/
+
+venv/
+__pycache__/
+*.pyc
